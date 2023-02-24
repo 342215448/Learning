@@ -29,4 +29,9 @@ echo 'the channels of condo have been completed...'
 mkdir -p /home/fengpeinan/.pip
 echo '[global]' >> /home/fengpeinan/.pip/pip.conf
 echo 'index-url = https://pypi.tuna.tsinghua.edu.cn/simple' >> /home/fengpeinan/.pip/pip.conf
-Echo 'the channels of pip have been completed...'
+echo 'the channels of pip have been completed...'
+
+# 删除download文件夹
+rm -rf download
+
+echo 'all completed...'
